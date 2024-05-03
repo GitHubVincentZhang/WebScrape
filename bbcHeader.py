@@ -5,7 +5,6 @@ def scrape_bbc_news():
     # URL of the BBC news archive
     url = "https://www.bbc.com/news"
 
-    # Send a GET request
     response = requests.get(url)
     
     # Parse the HTML content of the page with BeautifulSoup
